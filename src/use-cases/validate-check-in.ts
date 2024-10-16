@@ -3,7 +3,6 @@ import { CheckInsRepositoy } from '@/repositories/chek-ins-repository'
 import { ResourceNotFoundError } from './errors/resource-not-found-error'
 
 interface ValidateCheckinUseCaseRequest {
-  userID: string
   checkInID: string
 }
 
